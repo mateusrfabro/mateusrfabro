@@ -2,7 +2,7 @@
 
 **Construo o pipeline e o produto em volta dele — Python · SQL · TypeScript · agentes de IA**
 
-🟢 **Aberto a projetos e vagas** — Converso sobre projetos de dados e de produto, e sobre vagas de engenharia de dados, analytics engineering e desenvolvimento de produto — PJ ou CLT, remoto. O jeito mais rápido é o e-mail.
+🟢 **Em busca de vaga** — Em busca de vaga de engenharia de dados, analytics engineering ou desenvolvimento de produto — PJ ou CLT, remoto. Converso também sobre projeto de escopo fechado. O jeito mais rápido é o e-mail.
 
 - Site (projetos, números medidos e lições de casos reais): https://mateusfabro.vercel.app
 - Currículo: [PT](https://mateusfabro.vercel.app/curriculo/mateus-fabro-pt.pdf) · [EN](https://mateusfabro.vercel.app/curriculo/mateus-fabro-en.pdf)
@@ -11,9 +11,7 @@
 
 ## O que eu faço
 
-- Engenheiro de dados e analytics: desenho, construo e opero sistemas de dados de ponta a ponta — pipelines ETL em Python e SQL orquestrados com Prefect, migração de data lake para lakehouse (S3 Tables/Iceberg), modelagem da camada gold, qualidade de dados, antifraude, atribuição de mídia, APIs e painéis (Power BI, Dash/Plotly) — e também o produto em volta do dado, em Python e TypeScript.
-- Desde out/2025 na Super Nova Gaming / MultiBet, num squad de dados de quatro pessoas para três operações de iGaming em três países e três moedas.
-- Fora do expediente, construí e opero produtos próprios, um deles com cliente real em produção e mensalidade ativa.
+- Engenheiro de dados e analytics com experiência em iGaming e crédito. Construo pipelines ETL em Python e SQL orquestrados com Prefect, modelo a camada gold e entrego painéis em Power BI. Migrei a camada de consumo de um data lake de 3,07 bilhões de registros para lakehouse (S3 Tables/Iceberg) e reduzi uma consulta crítica de 240 s para 21 s. Atuei na Super Nova Gaming / MultiBet de out/2025 até o encerramento da empresa, em nov/2026.
 
 ## Projetos
 
@@ -30,11 +28,11 @@
 | **diario-mateus-fabro** | Site profissional e currículo gerados de um JSON só, para pessoas e agentes de IA: HTML, PDF, JSON Resume, llms.txt e servidor MCP | — | [diario-mateus-fabro](https://github.com/mateusrfabro/diario-mateus-fabro) |
 | **lab-ia** | Laboratório local de IA: Ollama + PyTorch numa RTX 4060 — agente com ferramentas, QLoRA, ML tabular | — | [lab-ia](https://github.com/mateusrfabro/lab-ia) |
 
-Trabalho atual: Super Nova Gaming / MultiBet (Grupo PGX), desde out/2025 — repositórios privados (dados da empresa).
+Trabalho anterior: Super Nova Gaming / MultiBet (Grupo PGX), out/2025 – nov/2026 — repositórios privados (dados da empresa).
 
 ## Engenharia de agentes
 
-- Montei um squad de 25 agentes Claude Code com papel definido (10 do squad de dados + 15 gerais) e 5 skills próprias (escopo de tenant, multimoeda, promoção de memória, PRD e fábrica de páginas), com gate obrigatório (extração → boas práticas → auditoria → entrega) e hooks que bloqueiam git destrutivo e commit sem teste.
+- Montei 25 agentes Claude Code (10 de dados + 15 gerais) e 5 skills próprias (tenant, multimoeda, memória, PRD e páginas), com gate obrigatório (extração → boas práticas → auditoria → entrega) e hooks que bloqueiam git destrutivo e commit sem teste.
 - Mantenho memória em três camadas (projeto → global → export): 125 lições registradas, cada uma com origem, motivo e forma de aplicar, e um script que prova que o índice não esqueceu nenhuma.
 - API da Anthropic em produção em dois produtos (IA multimodal no DumpAI; chatbot clínico no Nous Clinical), agente LangChain/n8n na secretária de WhatsApp e laboratório local (Ollama + PyTorch numa RTX 4060) para saber o que roda sem API.
 
